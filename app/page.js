@@ -150,13 +150,13 @@ export default function Home() {
               
               <Typography variant="h5" gutterBottom>Basic subscription</Typography>
               <Typography variant="h6" gutterBottom>All basic features included</Typography>
-              <Button 
+              {/*<Button 
                 variant="contained" 
                 color="primary" 
                 sx={{ mt: 2, mr: 2 }} 
                 href="result">
                   Free
-              </Button>
+            </Button>*/}
             </Box>
 
           </Grid>
