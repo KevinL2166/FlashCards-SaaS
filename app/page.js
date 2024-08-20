@@ -171,8 +171,8 @@ export default function Home() {
                 textAlign: 'center',
               }}
             >
-              <Typography variant="h5" gutterBottom>Basic subscription</Typography>
-              <Typography variant="h6" gutterBottom>All basic features included</Typography>
+              <Typography variant="h5" gutterBottom>Pro subscription</Typography>
+              <Typography variant="h6" gutterBottom>Access to more advanced features</Typography>
               <Button 
                 variant="contained" 
                 color="primary" 
