@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { useEffect } from 'react'
-import { useUser } from '@clerk/clerk-react'
+import useUser from '@clerk/nextjs'
 import { doc, collection, getDoc, writeBatch, setDoc } from 'firebase/firestore';
 
 
