@@ -1,8 +1,8 @@
 'use client'
-
+//import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import useUser from '@clerk/nextjs'
+import { useUse } from '@clerk/nextjs'
 import { doc, collection, getDoc, writeBatch, setDoc } from 'firebase/firestore';
 
 

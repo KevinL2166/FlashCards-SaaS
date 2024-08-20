@@ -1,5 +1,5 @@
 'use client'
-
+import React from 'react'
 import { useEffect, useState } from 'react'
 import {
   Container,
@@ -19,7 +19,7 @@ import {
   DialogContentText,
   DialogActions,
 } from '@mui/material';
-import useUser from '@clerk/nextjs'
+import {useUser} from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
 
 //import { doc, collection, getDoc, writeBatch, setDoc } from 'firebase/firestore';
