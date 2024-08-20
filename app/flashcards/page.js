@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { useEffect, useUser } from 'react'
+import { useEffect } from 'react'
+import { useUser } from '@clerk/clerk-react'
 import { doc, collection, getDoc, writeBatch, setDoc } from 'firebase/firestore';
 
 

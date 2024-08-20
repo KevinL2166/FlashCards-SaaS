@@ -13,7 +13,7 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import Head from "next/head";
 import { Container } from "@mui/material";
 
-import { useUser } from '@clerk/nextjs'
+import { useUser } from '@clerk/clerk-react'
 //import { useRouter } from 'next/navigation'
 
 export default function Home() {

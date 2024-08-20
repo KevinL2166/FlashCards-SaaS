@@ -19,7 +19,7 @@ import {
   DialogContentText,
   DialogActions,
 } from '@mui/material';
-import { useUser } from '@clerk/nextjs'
+import { useUser } from '@clerk/clerk-react'
 import { useRouter } from 'next/navigation'
 
 //import { doc, collection, getDoc, writeBatch, setDoc } from 'firebase/firestore';
