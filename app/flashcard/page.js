@@ -20,7 +20,7 @@ import {
   DialogContentText,
   DialogActions,
 } from '@mui/material';
-import useUser from '@clerk/nextjs'
+import {useUser} from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
 import { useSearchParams } from 'next/navigation'
 import { doc, collection, getDocs, writeBatch, setDoc } from 'firebase/firestore';
