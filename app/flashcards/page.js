@@ -30,7 +30,7 @@ import { useSearchParams } from 'next/navigation'
 
 
 export default function Flashcards() {
-    const { isLoaded, isSignedIn, user } = useUser()
+    const { user, isLoaded, isSignedIn } = useUser()
     const [flashcards, setFlashcards] = useState([])
     const router = useRouter()
   

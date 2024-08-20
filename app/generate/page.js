@@ -19,7 +19,7 @@ import {
   DialogContentText,
   DialogActions,
 } from '@mui/material';
-import { useUser } from '@clerk/clerk-react'
+import useUser from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
 
 //import { doc, collection, getDoc, writeBatch, setDoc } from 'firebase/firestore';
@@ -38,7 +38,7 @@ import { db } from '/firebase'; // Make sure to adjust the import path according
 
 
 export default function Generate() {
-  const { isLoaded, isSignedIn, user } = useUser();
+  const { user, isLoaded, isSignedIn } = useUser();
   const [flashcards, setFlashcards] = useState([])
   const [flipped, setFlipped] = useState([])
   const [text, setText] = useState('')

@@ -27,7 +27,7 @@ import { doc, collection, getDocs, writeBatch, setDoc } from 'firebase/firestore
 
 
 export default function Flashcard() {
-  const { isLoaded, isSignedIn, user } = useUser()
+  const { user, isLoaded, isSignedIn } = useUser()
   const [flashcards, setFlashcards] = useState([])
   const [flipped, setFlipped] = useState({})
 
